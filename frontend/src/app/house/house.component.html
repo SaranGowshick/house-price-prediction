@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>House</title>
+</head>
+<body class="body">
+        <div class="container">
+            <form #userForm="ngForm" class="form" action="/house" method="post" (ngSubmit)="onSubmit(userForm.value)">
+                <label><b>Area:</b></label>
+                <input type="text" name="area" placeholder="Enter The Area" ngModel><br>
+                <label><b>Builder:</b></label>
+                <input type="text" name="builder" placeholder="Enter The Builder" ngModel><br>
+                <label><b>Square Feet:</b></label>
+                <input type="number" name="sqft" placeholder="Enter The Square Feet" ngModel><br>
+                <label><b>Bathrooms:</b></label><br>
+                <input type="number" name="bath" placeholder="Enter The Bathroom" ngModel><br>
+                <label><b>Bedrooms:</b></label>
+                <input type="number" name="bhk" placeholder="Enter The Bedrooms" ngModel><br>
+                <label><b>year:</b></label>
+                <input type="number" name="year" placeholder="Enter The Year" ngModel><br>
+                <input type="submit">
+            </form>
+        </div>
+</body>
+</html>
+

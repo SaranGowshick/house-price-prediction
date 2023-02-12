@@ -1,3 +1,6 @@
 \backend\Project\.idea
 \backend\Project\__pycache__
 \backend\Project\venv
+\frontend\Demo\.angular
+\frontend\Demo\.vscode
+\frontend\Demo\node_modules
